@@ -5,6 +5,7 @@ metadata:
   labels:
     app: rabbitmq
 spec:
+  replicas: {{ .Values.replicaCount }} 
   selector:
     matchLabels:
       app: rabbitmq
