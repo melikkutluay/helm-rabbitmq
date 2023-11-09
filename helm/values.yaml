@@ -6,7 +6,7 @@ image:
   pullPolicy: IfNotPresent
 #servicetype: NodePort
 servicetype: NodePort
-replicaCount: 4
+replicaCount: 2
 serviceBindings:
   enabled: false
 
